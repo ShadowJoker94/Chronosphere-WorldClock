@@ -1,2 +1,5 @@
-# Chronosphere-WorldClock
-A responsive world clock application built with HTML, CSS, and JavaScript, featuring live time displays for 61 destinations across 58 countries, time zone comparisons, saved favourites, and offline support.
+ChronoSphere World Clock is a responsive web application designed to simplify viewing and comparing local times across 61 destinations in 58 countries. It combines live digital and analogue clocks with destination photography, country flags, local dates, UTC offsets, and time differences.
+
+The application supports searches by city, country, or IANA time zone, continent filtering, saved favourites, and direct comparisons between two destinations. Users can customise the interface with light and dark themes and 12-hour or 24-hour time formats, with preferences stored locally in the browser.
+
+Built with HTML, CSS, and vanilla JavaScript, ChronoSphere requires no backend service, API keys, or build process. Bundled assets enable offline use, while service-worker caching supports installation as a Progressive Web App in compatible browsers when served over HTTPS or localhost. The interface also includes keyboard navigation, visible focus indicators, and support for reduced-motion preferences.
